@@ -7,7 +7,7 @@ let emailTransporter = nodeMailer.createTransport({
   service: "gmail",
   auth: {
     user: "youremail@gmail.com",
-    pass: "", // your gmail or App Password password
+    pass: "", // your gmail or App Password
   },
 });
 
